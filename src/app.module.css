@@ -1,0 +1,46 @@
+h2 {
+  color: #ffffffc7;
+  font-size: clamp(1.5em, 3em, 8vw);
+}
+.wrapper{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.box{
+  width: 100%;
+  height: 100vh;
+  background-color: lightcoral;
+  margin-block: 40px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.boxTitle{
+  margin: 0 15vw;
+  width: 70vw;
+  font-size: 5vw;
+}
+.boxTitle .right{
+  margin: 0 5vw 0 10vw;
+  width: 70vw;
+  font-size: 5vw;
+}
+.left{
+  background-color: #e25550;
+}
+.right{
+  background-color: #7ac9ca;
+}
+marquee{
+  font-size: 5vw;
+  color: #ffffffc7;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}

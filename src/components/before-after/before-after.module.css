@@ -1,0 +1,60 @@
+.wrapper {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .upperImageWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: green;
+    /* border-right: 1px solid #fff; */
+    overflow: hidden;
+    border-right: 1px solid #ffffff9d;
+  }
+  .upperImageWrapper img {
+      object-fit: cover;
+  }
+  .lowerImage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: red;
+    
+  }
+  .lowerImage img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+   
+  }
+  .range {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    -webkit-appearance: none;
+    transform: rotate(180deg);
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    /* box-shadow: 1px 1px 0px #000000; */
+    /* border: 2px solid #ffffffb4; */
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: #ffffff54;
+    background-position: center;
+    background-image: url(https://static.thenounproject.com/png/1942353-200.png);
+    background-size: 45px;
+    transform: rotate(180deg);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -10.5px;
+  }
+  
